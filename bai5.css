@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+#counter-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter-value {
+    font-size: 50px;
+}
+
+.counter-label {
+    font-size: 20px;
+    color: #777;
+}
